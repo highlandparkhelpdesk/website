@@ -1,38 +1,185 @@
-/* Global styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
 }
 
-/* Header styles */
-header {
-    background-color: #0073e6;
+/* Header */
+.alt-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #005A8D;
     color: white;
-    padding: 20px;
+    padding: 30px 20px;
+    text-align: center;
 }
 
-/* Navigation styles */
+.logo {
+    width: 150px;
+    height: 150px;
+    background-image: url('hphd_logo_large.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.header-content {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.header-contact span {
+    display: block;
+    font-size: 16px;
+    margin: 2px 0;
+}
+
 nav a {
     color: white;
-    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 16px;
+    margin: 0 10px;
 }
 
-/* Section styling */
-section {
+.cta-button {
+    background: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+.intro {
+    padding: 60px 20px;
+    background: #0077B6;
+    color: white;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Highlights Section */
+.highlights {
+    background: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.highlight-item {
+    max-width: 250px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-block {
+  margin-bottom: 30px;
+}
+
+.service-block ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+
+/* About Preview Section */
+.about-preview {
+    background: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.about p {
+    margin: 20px 100px; /* Adjust these values as needed */
+}
+
+.about-preview h2 {
+    margin-bottom: 15px;
+}
+
+.about-preview p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Certifications Section */
+.certifications {
+    padding: 40px 20px;
+    background: white;
+}
+
+.certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications ul li {
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    background:  #f9f9f9;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+/* Pricing Section */
+.pricing {
+    padding: 40px 20px;
+    background: white;
+}
+
+.pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer.alt-footer {
+    background: #333;
+    color: white;
     padding: 20px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
+footer.alt-footer nav a {
     color: white;
-    padding: 10px;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    text-decoration: none;
+    margin: 0 10px;
 }
