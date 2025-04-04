@@ -15,7 +15,7 @@ body {
     align-items: center;
     background: #005A8D;
     color: white;
-    padding: 30px 20px;
+    padding: 25px 20px;
     text-align: center;
 }
 
@@ -42,6 +42,7 @@ body {
     margin-bottom: 16px;
 }
 
+
 .header-contact span {
     display: block;
     font-size: 16px;
@@ -55,17 +56,9 @@ nav a {
     margin: 0 10px;
 }
 
-.cta-button {
-    background: #FF6600;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 /* Intro Section */
 .intro {
-    padding: 25px 20px;
+    padding: 10px 20px;
     background: #0077B6;
     color: white;
 }
@@ -171,9 +164,16 @@ nav a {
     margin-bottom: 10px;
 }
 
+/* Contact Section */
+.contact {
+    padding: 25px 20px;
+    background: #0077B6;
+    color: white;
+}
+
 /* Footer */
 footer.alt-footer {
-    background: #333;
+    background: #005A8D;
     color: white;
     padding: 25px;
 }
